@@ -15,8 +15,8 @@ class Todo(db.Model):
 
 @app.route('/')
 def index():
-    # show all todos
-    todo_list = Todo.query.all()
+    # show all todos by deadline order
+    todo_list = Todo.query.order_by(Todo.deadline).all()
     print(todo_list)
     return render_template('base.html', todo_list=todo_list)
 
@@ -27,7 +27,6 @@ def add():
     deadline = request.form.get("deadline")
     new_todo_deadline = Todo(title=title, complete=False, deadline=deadline)
     db.session.add(new_todo_deadline)
-    Todo.query.order_by(deadline.desc())
     db.session.commit()
     return redirect(url_for("index"))
 

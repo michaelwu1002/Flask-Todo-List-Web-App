@@ -19,7 +19,7 @@
     </form>
 
     {% for todo in todo_list %}
-        <p> {{ todo.id }} | {{ todo.title }} | {{ todo.deadline }} </p>
+        <p> {{ todo.title }} | {{ todo.deadline }} </p>
         {% if todo.complete == False %}
             <span>Not Complete</span>
         {% else %}
