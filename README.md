@@ -32,7 +32,7 @@ $ npm install
 $ npm start
 ```
 
-Have Python3 installed, navigate to the project directory, and create & activate the flask environment. Next, install flask.
+First, make sure Python3 is installed. Then navigate to the project directory. Afterwards, create & activate the flask environment and then install flask with the following commands.
 
 On Mac:
 ```
@@ -67,5 +67,6 @@ or
 ```
 $ python app.py
 ```
-Afterwards, you should see something like this in the terminal:
+Afterwards, you should see something like this in the terminal: ![Terminal Screenshot](https://github.com/michaelwu1002/flask_todo_list/blob/main/Screen%20Shot%202021-05-19%20at%204.33.54%20PM.png)
+Copy and paste the url after "Running on" into your web browser and you will be able to use the todo web app.
 
