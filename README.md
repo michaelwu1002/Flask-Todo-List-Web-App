@@ -1,6 +1,5 @@
 # Flask Todo List
 
-
 <a name="general-info"></a>
 ### General Info
 ***
@@ -15,29 +14,23 @@ A list of technologies used within the project:
 * [SQLAlchemy](https://docs.sqlalchemy.org/en/14/)
 * [Semantic UI](https://semantic-ui.com/)
 
-## Installation & How to Run
+### Installation & How to Run
 ***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-
-First, make sure Python3 is installed. Then navigate to the project directory. Afterwards, create & activate the flask environment and then install flask with the following commands.
+First, make sure Python3 is installed. Then navigate to the project directory. Afterwards, create & activate the flask environment and then install flask (and its SQLAlchemy module) with the following commands.
 
 On Mac:
 ```
 $ python3 -m venv venv
 $ . venv/bin/activate
-$ pip install flask
+$ pip install Flask
+$ pip install Flask-SQLAlchemy
 ```
 On Windows:
 ```
 > py -3 -m venv venv
 > venv/Scripts/activate
-> pip install flask
+> pip install Flask
+> pip install Flask-SQLAlchemy
 ```
 Next, to run the Todo app, set the following environment variables.
 
