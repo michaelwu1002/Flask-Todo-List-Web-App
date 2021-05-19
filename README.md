@@ -1,12 +1,5 @@
 # Flask Todo List
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-
 
 <a name="general-info"></a>
 ### General Info
@@ -22,7 +15,7 @@ A list of technologies used within the project:
 * [SQLAlchemy](https://docs.sqlalchemy.org/en/14/)
 * [Semantic UI](https://semantic-ui.com/)
 
-## Installation
+## Installation & How to Run
 ***
 A little intro about the installation. 
 ```
@@ -68,5 +61,4 @@ or
 $ python app.py
 ```
 Afterwards, you should see something like this in the terminal: ![Terminal Screenshot](https://github.com/michaelwu1002/flask_todo_list/blob/main/Screen%20Shot%202021-05-19%20at%204.33.54%20PM.png)
-Copy and paste the url after "Running on" into your web browser and you will be able to use the todo web app.
-
+Copy and paste the url after "Running on" into your web browser and you will be able to use the todo web app. To stop running the web app, press CTRL+C to quit.
