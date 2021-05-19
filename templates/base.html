@@ -9,10 +9,11 @@
 
     <h1>Todo App</h1>
 
-    <form action="">
+    <form action="/add" method="post">
         <div>
             <label for="title">Todo Title</label>
             <input type="text" name="title" placeholder="Enter Todo...">
+            <input type="date" name="deadline" placeholder="Enter Deadline...">
             <button type=submit>Add</button>
         </div>
     </form>
@@ -25,10 +26,16 @@
             <span>Completed</span>
         {% endif %}
 
-        <a href="/">Update</a>
-        <a href="/">Delete</a>
+        <a href="/update/{{ todo.id }}">Update</a>
+        <a href="/delete/{{ todo.id }}">Delete</a>
 
     {% endfor %}
+
+    <form action="/clear" method="post">
+        <div>
+            <button type=submit>Clear All</button>
+        </div>
+    </form>
 
     
 </body>
