@@ -22,15 +22,13 @@ On Mac:
 ```
 $ python3 -m venv venv
 $ . venv/bin/activate
-$ pip install Flask
-$ pip install Flask-SQLAlchemy
+$ pip install -r requirements.txt
 ```
 On Windows:
 ```
 > py -3 -m venv venv
 > venv/Scripts/activate
-> pip install Flask
-> pip install Flask-SQLAlchemy
+> pip install -r requirements.txt
 ```
 Next, to run the Todo app, set the following environment variables.
 
