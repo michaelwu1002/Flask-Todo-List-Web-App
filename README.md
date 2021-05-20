@@ -4,7 +4,7 @@
 ### General Info
 ***
 This is a basic flask web app that serves the purpose of a todo-list. Functionalities include: adding tasks (and displaying by deadline), updating a task status, deleting the a task, and clearing all tasks.
-![Todo List App Screenshot](https://github.com/michaelwu1002/flask_todo_list/blob/main/Screen%20Shot%202021-05-19%20at%203.35.14%20PM.png)
+![Todo List App Screenshot](https://github.com/michaelwu1002/flask_todo_list/blob/main/Screen%20Shot%202021-05-20%20at%206.09.48%20PM.png)
 
 <a name="technologies"></a>
 ### Technologies
